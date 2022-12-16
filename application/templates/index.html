@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Вентиляция</title>
+	<link href="static/css/bootstrap.min.css" rel="stylesheet" >
+  </head>
+  <body>
+  <br>
+	<div class="container text-center">
+	  <div class="row">
+		<div class="col-2 text-center">
+		<a class="btn btn-primary  btn-lg" href="/" role="button">Перезагрузить</a>
+		</div>
+		<div class="col-8 text-center">
+		<h1><strong>ВЕНТИЛЯЦИЯ КДЦ"Нефтяник"</strong></h1>
+		</div>
+		<div class="col-2 text-center">
+		<a class="btn btn-outline-secondary  btn-sm" href="/delpass" role="button">Выйти</a>
+		</div>
+	  </div>
+	  <br>
+	  <br>
+	  
+	  <div class="row">
+		<div class="col">
+				<div class="{{ class_card1 }}" style="width: 18rem;">
+				  <img src="/static/img/1rgb.jpg" class="card-img-top" alt="...">
+				  <div class="card-body">
+					<h1 class="card-title"><strong>{{ card_title1 }}</strong></h1>
+					<p class="card-text"><h3><strong>Зрительный</strong></h3></p>
+					<p class="card-text"><h3><strong>зал</strong></h3></p>
+					<p class="card-text"><h3>Вытяжка</h3></p>
+					<a href="/relay/1" class="{{ a_btn_class1 }}">{{ a_btn_text1 }}</a>
+				  </div>
+				</div>
+		</div>
+		<div class="col">
+				<div class="{{ class_card2 }}" style="width: 18rem;">
+				  <img src="/static/img/2rgb.jpg" class="card-img-top" alt="...">
+				  <div class="card-body">
+					<h1 class="card-title"><strong>{{ card_title2 }}</strong></h1>
+					<p class="card-text"><h3><strong>Торжественный</strong></h3></p>
+					<p class="card-text"><h3><strong>зал</strong></h3></p>
+					<p class="card-text"><h3>Вытяжка</h3></p>
+					<a href="/relay/2" class="{{ a_btn_class2 }}">{{ a_btn_text2 }}</a>
+				  </div>
+				</div>
+		</div>
+		<div class="col">
+				<div class="{{ class_card3 }}" style="width: 18rem;">
+				  <img src="/static/img/3rgb.jpg" class="card-img-top" alt="...">
+				  <div class="card-body">
+					<h1 class="card-title"><strong>{{ card_title3 }}</strong></h1>
+					<p class="card-text"><h3><strong>Гостинная</strong></h3></p>
+					<p class="card-text"><h3><strong>и Бильярдная</strong></h3></p>
+					<p class="card-text"><h3>Вытяжка</h3></p>
+					<a href="/relay/3" class="{{ a_btn_class3 }}">{{ a_btn_text3 }}</a>
+				  </div>
+				</div>
+		</div>
+		<div class="col">
+				<div class="{{ class_card4 }}" style="width: 18rem;">
+				  <img src="/static/img/4rgb.jpg" class="card-img-top" alt="...">
+				  <div class="card-body">
+					<h1 class="card-title"><strong>{{ card_title4 }}</strong></h1>
+					<p class="card-text"><h3><strong>Администрация</strong></h3></p>
+					<p class="card-text"><h3><strong>и Правое крыло</strong></h3></p>
+					<p class="card-text"><h3>Вытяжка</h3></p>
+					<a href="/relay/4" class="{{ a_btn_class4 }}">{{ a_btn_text4 }}</a>
+				  </div>
+				</div>
+		</div>
+
+
+	  </div>
+	  <br>
+	  <div class="row">
+
+		<div class="col">
+				<div class="{{ class_card5 }}" style="width: 18rem;">
+				  <img src="/static/img/5rgb.jpg" class="card-img-top" alt="...">
+				  <div class="card-body">
+					<h1 class="card-title"><strong>{{ card_title5 }}</strong></h1>
+					<p class="card-text"><h3><strong>Студия</strong></h3></p>
+					<p class="card-text"><h3><strong>звукозаписи</strong></h3></p>
+				
+					<p class="card-text"><h3>Приточка</h3></p>
+                                        <p class="card-text"><h3>холодная</h3></p>
+					<a href="/relay/5" class="{{ a_btn_class5 }}">{{ a_btn_text5 }}</a>
+				  </div>
+				</div>
+		</div>
+		<div class="col">
+				<div class="{{ class_card6 }}" style="width: 18rem;">
+				  <img src="/static/img/6rgb.jpg" class="card-img-top" alt="...">
+				  <div class="card-body">
+					<h1 class="card-title"><strong>{{ card_title6 }}</strong></h1>
+					<p class="card-text"><h3><strong>Администрация</strong></h3></p>
+					<p class="card-text"><h3><strong>и Правое крыло</strong></h3></p>
+					<p class="card-text"><h3>Приточка</h3></p>
+                                        <p class="card-text"><h3>тёплая</h3></p>
+					<a href="/relay/6" class="{{ a_btn_class6 }}">{{ a_btn_text6 }}</a>
+				  </div>
+				</div>
+		</div>
+
+		<div class="col">
+				<div class="{{ class_card0 }}" style="width: 18rem;">
+				  <div class="card-body">
+					<h1 class="card-title"><strong>{{ card_title0 }}</strong></h1>
+					<p class="card-text"><h3><strong>Программа</strong></h3></p>
+                                        {{ card_text_auto }}
+					<a href="/auto" class="{{ a_btn_class0 }}">{{ a_btn_text0 }}</a>
+				  </div>
+				</div>
+		</div>
+
+
+
+
+
+	  </div>
+	  
+      <br>
+	  
+	  <div class="row text-center">
+	  <p class="mt-5 mb-3 text-muted">Написан на Bootstrap и Flask</p>
+	  <h6 >©КДЦ"Нефтяник" 2022</h6>
+	  </div>
+	  
+	</div>
+
+	
+	<script src="static/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
