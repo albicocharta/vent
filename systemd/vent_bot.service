@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 ExecStart=/usr/local/bin/python3.10 bot.py
-WorkingDirectory=/root/scripts
+WorkingDirectory=/root/vent
 StandardOutput=inherit
 StandardError=inherit
 Restart=on-failure

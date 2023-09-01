@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 ExecStart=/usr/local/bin/python3.10 main.py
-WorkingDirectory=/var/www/application/
+WorkingDirectory=/root/vent/application/
 StandardOutput=inherit
 StandardError=inherit
 Restart=on-failure
