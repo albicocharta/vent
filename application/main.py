@@ -185,7 +185,9 @@ def index_html_zvuk():
 
 
 app = Flask(__name__)
-app.secret_key = "54465f6g"
+
+import config 
+app.secret_key = config.secret_key
 
 
 @app.route('/',methods=['GET'])
