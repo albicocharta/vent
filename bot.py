@@ -5,14 +5,15 @@ This is built on the API wrapper, see echobot.py to see the same example built
 on the telegram.ext bot framework.
 This program is dedicated to the public domain under the CC0 license.
 """
+
+import config
 password = {
-    'adm' : 'password_adm',
-    'horeog' : 'password_horeog',
-    'zvuk' : 'password_zvuk',
-    'view' : 'password_view',
-    'auto' : 'password_auto',
-    'horeog_start' : 'password_horeog_start'
-    }
+    'adm' : config.adm,
+    'horeog' : config.horeog,
+    'zvuk' : config.zvuk,
+    'view' : config.view,
+    'auto' : config.auto,
+    'horeog_start' : config.horeog_start
 
 horogstoptime = ''
 
